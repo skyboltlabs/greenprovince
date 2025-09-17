@@ -61,7 +61,7 @@ const Services = () => {
       icon: <Hammer className="w-12 h-12" />,
       title: 'Carpentry Services',
       description: 'Custom carpentry and woodworking for functional and beautiful home improvements.',
-      image: 'https://images.pexels.com/photos/5691628/pexels-photo-5691628.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: 'https://raw.githubusercontent.com/skyboltlabs/greenprovince/refs/heads/main/about.jpg?auto=compress&cs=tinysrgb&w=600',
       services: [
         'Custom furniture building',
         'Kitchen cabinet installation',
