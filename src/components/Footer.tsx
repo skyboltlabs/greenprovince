@@ -47,7 +47,7 @@ const Footer = () => {
               <li className="text-gray-300">Plumbing Services</li>
               <li className="text-gray-300">Electrical Work</li>
               <li className="text-gray-300">Tiling & Flooring</li>
-              <li className="text-gray-300">Carpentry</li>
+              <li className="text-gray-300">Painting</li>
               <li className="text-gray-300">Emergency Repairs</li>
             </ul>
           </div>
@@ -85,7 +85,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 Green Province. All rights reserved. | Professional plumbing and electrical services in Cape Town.
+            © 2025 Green Province. All rights reserved. | Professional plumbing and electrical services in Cape Town.
           </p>
         </div>
       </div>
