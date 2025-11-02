@@ -8,7 +8,7 @@ const Home = () => {
       icon: <Wrench className="w-8 h-8" />,
       title: 'Plumbing Services',
       description: 'Professional plumbing repairs, installations, and maintenance for residential and commercial properties.',
-      features: ['Leak repairs', 'Pipe installations', 'Drain cleaning', 'Emergency service']
+      features: ['Leak repairs', 'Pipe installations', 'Drain cleaning and unblocking', 'Emergency service']
     },
     {
       icon: <Zap className="w-8 h-8" />,
@@ -26,7 +26,7 @@ const Home = () => {
       icon: <Hammer className="w-8 h-8" />,
       title: 'Carpentry',
       description: 'Custom carpentry and woodworking services for both functional and decorative projects.',
-      features: ['Custom furniture', 'Built-in storage', 'Deck construction', 'Kitchen cabinets']
+      features: ['Custom furniture', 'Built-in storage', 'Kitchen cabinets', 'Painting']
     }
   ];
 
