@@ -88,6 +88,12 @@ const Footer = () => {
             © 2025 Green Province. All rights reserved. | Professional plumbing and electrical services in Cape Town.
           </p>
         </div>
+        <span className="flex items-center gap-1 text-[11px] sm:text-xs">
+            Built by{" "}
+            <a href="https://skyboltlabs.co.za" target="_blank" rel="noreferrer" className="bg-gradient-to-r from-sky-400 to-indigo-400 bg-clip-text text-transparent font-medium hover:opacity-80 transition-opacity">
+              Skybolt Labs
+            </a>
+          </span>
       </div>
     </footer>
   );
