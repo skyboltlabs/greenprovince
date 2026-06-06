@@ -17,7 +17,7 @@ const Services = () => {
         'Drain cleaning and unblocking',
         'Toilet and sink installation',
         'Water heater services',
-        'Emergency plumbing repairs',
+        'Waterproofing',
         'Bathroom renovations',
         'Kitchen plumbing'
       ],
