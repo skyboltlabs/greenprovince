@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, CheckCircle, Phone, Star, Wrench, Zap, Hammer, PaintBucket } from 'lucide-react';
+import { ArrowRight, CheckCircle, Phone, Star, Wrench, Zap } from 'lucide-react';
 
 const Home = () => {
   const services = [
@@ -15,18 +15,6 @@ const Home = () => {
       title: 'Electrical Work',
       description: 'Safe and reliable electrical services from certified electricians for all your electrical needs.',
       features: ['Wiring & rewiring', 'Light installations', 'Panel upgrades', 'Safety inspections']
-    },
-    {
-      icon: <PaintBucket className="w-8 h-8" />,
-      title: 'Tiling Services',
-      description: 'Expert tiling for bathrooms, kitchens, and floors with precision and attention to detail.',
-      features: ['Bathroom tiling', 'Kitchen backsplashes', 'Floor tiling', 'Waterproofing']
-    },
-    {
-      icon: <Hammer className="w-8 h-8" />,
-      title: 'Carpentry',
-      description: 'Custom carpentry and woodworking services for both functional and decorative projects.',
-      features: ['Custom furniture', 'Built-in storage', 'Kitchen cabinets', 'Painting']
     }
   ];
 
@@ -42,12 +30,6 @@ const Home = () => {
       rating: 5,
       comment: 'Outstanding electrical work. The team was punctual, clean, and very knowledgeable. Great value for money.',
       service: 'Electrical'
-    },
-    {
-      name: 'Lisa Johnson',
-      rating: 5,
-      comment: 'Beautiful tiling work in our bathroom renovation. The attention to detail was impressive.',
-      service: 'Tiling'
     }
   ];
 
@@ -71,7 +53,7 @@ const Home = () => {
               <span className="text-green-200 block">Muizenberg</span>
             </h1>
             <p className="text-xl lg:text-2xl mb-8 text-green-100 leading-relaxed">
-              Expert plumbing, electrical, tiling, and carpentry services. 
+              Expert plumbing and electrical services. 
               Quality workmanship with reliable, affordable solutions for your home.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
