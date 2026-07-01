@@ -4,7 +4,7 @@ import { CheckCircle, Calendar, Clock, ArrowRight } from 'lucide-react';
 const Portfolio = () => {
   const [activeCategory, setActiveCategory] = useState('All');
 
-  const categories = ['All', 'Plumbing', 'Electrical', 'Tiling', 'Carpentry'];
+  const categories = ['All', 'Plumbing', 'Electrical'];
 
   const projects = [
     {
@@ -29,26 +29,6 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: 'Tiling',
-      category: 'Tiling',
-      image: 'https://raw.githubusercontent.com/skyboltlabs/greenprovince/refs/heads/main/tiling.jpg?auto=compress&cs=tinysrgb&w=600',
-      description: 'Beautiful tile work with non-slip porcelain tiles and proper drainage.',
-      duration: '3 days',
-      year: '2024',
-      features: ['Non-slip tiles', 'Proper drainage', 'Weather-resistant grout', 'Custom patterns']
-    },
-    {
-      id: 4,
-      title: 'Custom Built-in Storage',
-      category: 'Carpentry',
-      image: 'https://raw.githubusercontent.com/skyboltlabs/greenprovince/refs/heads/main/custom-storage.jpg?auto=compress&cs=tinysrgb&w=600',
-      description: 'Custom-built storage solution maximizing space in a compact bedroom.',
-      duration: '2 days',
-      year: '2023',
-      features: ['Custom design', 'Space optimization', 'Quality materials', 'Perfect fit']
-    },
-    {
-      id: 5,
       title: 'Emergency Pipe Repair',
       category: 'Plumbing',
       image: 'https://raw.githubusercontent.com/skyboltlabs/greenprovince/refs/heads/main/em-pipe-repair.jpg?auto=compress&cs=tinysrgb&w=600',
@@ -58,7 +38,7 @@ const Portfolio = () => {
       features: ['Emergency response', 'Quick repair', 'Minimal disruption', 'Warranty included']
     },
     {
-      id: 6,
+      id: 4,
       title: 'Home Office Electrical Setup',
       category: 'Electrical',
       image: 'https://images.pexels.com/photos/159045/the-interior-of-the-repair-interior-design-159045.jpeg?auto=compress&cs=tinysrgb&w=600',
