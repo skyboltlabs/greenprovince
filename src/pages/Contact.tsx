@@ -65,8 +65,6 @@ const Contact = () => {
   const services = [
     'Plumbing Services',
     'Electrical Work',
-    'Tiling Services',
-    'Carpentry',
     'Emergency Repair',
     'General Maintenance'
   ];
