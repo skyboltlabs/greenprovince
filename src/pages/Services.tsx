@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Wrench, Zap, Hammer, PaintBucket, CheckCircle, ArrowRight, Phone } from 'lucide-react';
+import { Wrench, Zap, CheckCircle, ArrowRight, Phone } from 'lucide-react';
 
 const Services = () => {
   const [activeService, setActiveService] = useState(0);
@@ -39,40 +39,6 @@ const Services = () => {
         'Electrical troubleshooting'
       ],
       emergency: true
-    },
-    {
-      icon: <PaintBucket className="w-12 h-12" />,
-      title: 'Tiling Services',
-      description: 'Professional tiling for bathrooms, kitchens, and floors with precision and style.',
-      image: 'https://images.pexels.com/photos/6474471/pexels-photo-6474471.jpeg?auto=compress&cs=tinysrgb&w=600',
-      services: [
-        'Bathroom wall and floor tiling',
-        'Kitchen backsplash installation',
-        'Outdoor patio tiling',
-        'Tile repair and replacement',
-        'Waterproofing services',
-        'Grout cleaning and sealing',
-        'Custom tile patterns',
-        'Natural stone installation'
-      ],
-      emergency: false
-    },
-    {
-      icon: <Hammer className="w-12 h-12" />,
-      title: 'Carpentry Services',
-      description: 'Custom carpentry and woodworking for functional and beautiful home improvements.',
-      image: 'https://raw.githubusercontent.com/skyboltlabs/greenprovince/refs/heads/main/about.jpg?auto=compress&cs=tinysrgb&w=600',
-      services: [
-        'Custom furniture building',
-        'Kitchen cabinet installation',
-        'Built-in storage solutions',
-        'Deck and patio construction',
-        'Door and window installation',
-        'Trim and molding work',
-        'Shelving systems',
-        'Home repairs and maintenance'
-      ],
-      emergency: false
     }
   ];
 
