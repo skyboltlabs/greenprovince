@@ -19,7 +19,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-gray-300 mb-4">
-              Your trusted partner for plumbing, electrical, tiling, and carpentry services throughout Cape Town and surrounding areas.
+              Your trusted partner for plumbing and electrical services throughout Cape Town and surrounding areas.
             </p>
             <div className="flex space-x-4">
               <Facebook className="w-5 h-5 text-gray-400 hover:text-green-400 cursor-pointer transition-colors" />
@@ -46,8 +46,6 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="text-gray-300">Plumbing Services</li>
               <li className="text-gray-300">Electrical Work</li>
-              <li className="text-gray-300">Tiling & Flooring</li>
-              <li className="text-gray-300">Painting</li>
               <li className="text-gray-300">Emergency Repairs</li>
             </ul>
           </div>
